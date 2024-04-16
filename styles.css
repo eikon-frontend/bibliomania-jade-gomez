@@ -13,3 +13,26 @@
 }
 
 /* 🦊 Vos styles ici */
+body {
+  max-width: 390px;
+  font-family: "Lato", sans-serif;
+}
+
+.lu-par {
+  display: flex;
+}
+
+.lu-par img {
+  justify-content: space-between;
+  height: 40px;
+}
+
+.recommendations {
+  display: flex;
+}
+
+.recommendations img {
+  height: 150px;
+  border-radius: 5px;
+
+}
