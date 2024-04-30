@@ -14,13 +14,59 @@
 
 /* 🦊 Vos styles ici */
 body {
-  max-width: 390px;
+  width: 100%;
   font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
 }
 
-.lu-par {
+.partie-1 {
   display: flex;
+  flex-wrap: wrap;
 }
+
+
+.livre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.livre img {
+  max-width: 100%;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.infos-livre {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #E0ECFF;
+  border-radius: 10px;
+}
+
+.infos-1 {
+  order: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.commentaires {
+  background-color: #d9d9d9;
+  display: flex;
+
+}
+
+.commentaires svg {
+  justify-content: flex-end;
+}
+
+
 
 .lu-par img {
   justify-content: space-between;
@@ -29,10 +75,13 @@ body {
 
 .recommendations {
   display: flex;
+
 }
 
 .recommendations img {
   height: 150px;
   border-radius: 5px;
+  justify-content: space-between;
+
 
 }
