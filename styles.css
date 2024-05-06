@@ -1,4 +1,6 @@
 /* 💡 Configuration des styles du sélecteur de note */
+
+
 :root {
   --gl-star-empty: url(../img/star-empty.svg);
   --gl-star-full: url(../img/star-full.svg);
@@ -14,24 +16,27 @@
 
 /* 🦊 Vos styles ici */
 body {
-  max-width: 100%;
+  width: 100%;
+  height: 100%;
   font-family: "Lato", sans-serif;
+
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0px;
+  padding: 1em;
+
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 0;
 
-
-
-}
-
-.tout {
-  padding: -10px;
-  max-width: 100%;
 }
 
 .titre {
-  max-width: 100%;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   margin-bottom: 3em;
@@ -52,6 +57,7 @@ body {
 
 .couverture {
   text-align: center;
+
 }
 
 .couverture img {
@@ -61,14 +67,18 @@ body {
 }
 
 .infos-livre {
-  background-color: #E0ECFF;
+
   padding: 2em;
-  margin-left: 1em;
-  margin-right: 1em;
-  margin-top: -10em;
+
+  margin-top: -3em;
   border-radius: 8px;
 }
 
+.star-rating {}
+
+select {
+  margin-left: 1em;
+}
 
 .icons {
   display: flex;
@@ -86,7 +96,6 @@ body {
   margin: 0%;
 }
 
-
 p {
   text-align: center;
 }
@@ -96,13 +105,18 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 1em;
-  padding-right: 1em;
+
   border-radius: 6px;
   margin-top: 6em;
-  margin-right: 1em;
-  margin-left: 1em;
+  width: 100%;
+}
 
+.commentaires p {
+  margin-left: 1em;
+}
+
+.commentaires svg {
+  margin-right: 1em;
 }
 
 .lu-par {
@@ -116,8 +130,8 @@ p {
 }
 
 .lu-par img {
-  justify-content: space-between;
-  height: 40px;
+  column-gap: 1em;
+  height: 50px;
 }
 
 
@@ -125,12 +139,12 @@ p {
   margin-top: 6em;
   margin-right: 1em;
   margin-left: 1em;
+  max-width: 100%;
 
 }
 
 .recommendations p {
   text-align: left;
-  column-gap: 1em;
 }
 
 .livres {
@@ -144,8 +158,6 @@ p {
   height: 150px;
   border-radius: 5px;
   justify-content: space-between;
-
-
 
 
 }
