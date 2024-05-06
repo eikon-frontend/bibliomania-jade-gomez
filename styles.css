@@ -14,74 +14,138 @@
 
 /* 🦊 Vos styles ici */
 body {
-  width: 100%;
+  max-width: 100%;
   font-family: "Lato", sans-serif;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  margin: 0;
+
+
 
 }
 
-.partie-1 {
-  display: flex;
-  flex-wrap: wrap;
+.tout {
+  padding: -10px;
+  max-width: 100%;
 }
 
-
-.livre {
+.titre {
+  max-width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 3em;
+  margin-top: 3em;
   align-items: center;
 }
 
-.livre img {
-  max-width: 100%;
-  width: 50%;
+.titre h1 {
+  margin: 0%;
+}
+
+
+.equilibre {
+  height: 27px;
+  width: 25px;
+}
+
+
+.couverture {
+  text-align: center;
+}
+
+.couverture img {
+  max-width: 50%;
   border-radius: 10px;
+
 }
 
 .infos-livre {
-  display: flex;
-  flex-wrap: wrap;
   background-color: #E0ECFF;
-  border-radius: 10px;
+  padding: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: -10em;
+  border-radius: 8px;
 }
 
-.infos-1 {
-  order: 0;
+
+.icons {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+}
+
+.note {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+
+}
+
+.note p {
+  margin: 0%;
+}
 
 
+p {
+  text-align: center;
 }
 
 .commentaires {
   background-color: #d9d9d9;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 6px;
+  margin-top: 6em;
+  margin-right: 1em;
+  margin-left: 1em;
 
 }
 
-.commentaires svg {
-  justify-content: flex-end;
+.lu-par {
+  margin-top: 6em;
+  margin-right: 1em;
+  margin-left: 1em;
 }
 
-
+.lu-par p {
+  text-align: left;
+}
 
 .lu-par img {
   justify-content: space-between;
   height: 40px;
 }
 
-.recommendations {
-  display: flex;
 
+.recommendations {
+  margin-top: 6em;
+  margin-right: 1em;
+  margin-left: 1em;
+
+}
+
+.recommendations p {
+  text-align: left;
+  column-gap: 1em;
+}
+
+.livres {
+  display: flex;
+  width: 100vw;
+  overflow-x: auto;
+  column-gap: 1em;
 }
 
 .recommendations img {
   height: 150px;
   border-radius: 5px;
   justify-content: space-between;
+
+
 
 
 }
