@@ -115,7 +115,6 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   border-radius: 6px;
   margin-top: 6em;
   width: 100%;
@@ -139,6 +138,7 @@ p {
 
 .lu-par p {
   text-align: left;
+  font-size: 110%;
 }
 
 .lu-par img {
@@ -151,13 +151,14 @@ p {
 .recommendations {
   margin-top: 6em;
   width: 100%;
-  margin-bottom: 3em;
+  margin-bottom: 5em;
 
 }
 
 .recommendations p {
   text-align: left;
   margin-bottom: 1em;
+  font-size: 110%;
 }
 
 .livres {
@@ -194,11 +195,19 @@ h4 {
 footer {
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  width: calc(100% - 2eM);
   border-top: 1px solid#e6e6e6;
   padding-top: 1em;
   align-items: center;
+  position: fixed;
+  bottom: 0em;
+  background-color: #fff;
+  padding-bottom: 1em;
+  z-index: 15;
+
 
 }
 
-footer svg {}
+footer svg {
+  height: 2.8em;
+}
