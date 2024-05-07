@@ -1,4 +1,6 @@
 /* 💡 Configuration des styles du sélecteur de note */
+
+
 :root {
   --gl-star-empty: url(../img/star-empty.svg);
   --gl-star-full: url(../img/star-full.svg);
@@ -13,3 +15,199 @@
 }
 
 /* 🦊 Vos styles ici */
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.titre {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3em;
+  margin-top: 3em;
+  align-items: center;
+}
+
+.titre h1 {
+  margin: 0%;
+}
+
+
+.equilibre {
+  height: 27px;
+  width: 25px;
+}
+
+
+.couverture {
+  width: 100%;
+  text-align: center;
+  z-index: 15;
+}
+
+.couverture img {
+  max-width: 50%;
+  border-radius: 10px;
+}
+
+.infos-livre {
+  max-width: 100%;
+
+  margin-top: -3em;
+  border-radius: 8px;
+  background-color: #e6e6e6;
+  z-index: 10;
+  margin-bottom: 2em;
+}
+
+.infos-livre p {
+  margin: 1em;
+  margin-bottom: ;
+}
+
+select {
+  margin-left: 1em;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+}
+
+.note {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+
+}
+
+.note p {
+  margin: 0%;
+}
+
+.infos-1 p {
+  font-size: 120%;
+  font-weight: 550;
+  margin: 0.5em;
+
+}
+
+p {
+  text-align: center;
+}
+
+.commentaires {
+  background-color: #e6e6e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  margin-top: 6em;
+  width: 100%;
+}
+
+.commentaires p {
+  margin-left: 1em;
+  font-size: 110%;
+}
+
+.commentaires svg {
+  margin-right: 1em;
+}
+
+.lu-par {
+  margin-top: 6em;
+
+
+
+}
+
+.lu-par p {
+  text-align: left;
+  font-size: 110%;
+}
+
+.lu-par img {
+
+  height: 50px;
+  margin-right: 1em;
+}
+
+
+.recommendations {
+  margin-top: 6em;
+  width: 100%;
+  margin-bottom: 5em;
+
+}
+
+.recommendations p {
+  text-align: left;
+  margin-bottom: 1em;
+  font-size: 110%;
+}
+
+.livres {
+  display: flex;
+  width: 100vw;
+  overflow-x: auto;
+  column-gap: 1em;
+  max-width: 100%;
+}
+
+.recommendations img {
+  height: 170px;
+  border-radius: 5px;
+  justify-content: space-between;
+
+
+}
+
+h4 {
+  margin: 1em, 0, 1em, 0;
+}
+
+.etoile {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5em;
+}
+
+.etoile p {
+  font-weight: 100;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  width: calc(100% - 2eM);
+  border-top: 1px solid#e6e6e6;
+  padding-top: 1em;
+  align-items: center;
+  position: fixed;
+  bottom: 0em;
+  background-color: #fff;
+  padding-bottom: 1em;
+  z-index: 15;
+
+
+}
+
+footer svg {
+  height: 2.8em;
+}
